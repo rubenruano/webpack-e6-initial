@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.ts',
   module: {
     rules: [
       {
@@ -24,8 +24,8 @@ module.exports = {
     path: path.resolve(__dirname, 'build')
   },
   devServer: {
-	  port: 3000,
-	  contentBase: './build',
+	  port: 9000,
+	  contentBase: path.join(__dirname, 'build'),
 	  inline: true
   }
 };

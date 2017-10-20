@@ -1,1 +1,2 @@
-console.log("Hello world! (from webpack-dev-server)");
+const saludo = "hello from index.js";
+alert(saludo);

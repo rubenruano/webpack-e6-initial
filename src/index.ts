@@ -1,6 +1,3 @@
-console.log("Hello world! (from webpack-dev-server) with Typescript");
-
-const myname:string = "Ruben";
-
-console.log(`My name is ${myname}`);
+const saludo = "Hello from index.ts";
+alert(saludo);
 
